@@ -1,8 +1,8 @@
 import "./App.css";
-import { InitializerFunction } from "./components/state/InitializerFunction";
+import { NonPrimitive } from "./components/state/objectIsComparison/NonPrimitive";
 
 function App() {
-  return <InitializerFunction />;
+  return <NonPrimitive />;
 }
 
 export default App;
